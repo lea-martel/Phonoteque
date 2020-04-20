@@ -43,17 +43,29 @@ body{
 .accueil_section1{
 	text-align: center;
 	margin-top:5%;
+	margin-bottom:5%;
+	font-family: 'Lora', serif, Arial;
+}
+.h2_accueil{
+	font-weight: normal;
 }
 
 /**** Section 2 : Sons et artistes****/
 .grid{
 	display:grid;
-	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	text-align:center;
 }
 
 .cellule{
 	background-color: lightgrey;
 	border:solid 1px white;
 	color:black;
+}
+
+.miniature{
+	width:200px;
+	height:200px;
 }
