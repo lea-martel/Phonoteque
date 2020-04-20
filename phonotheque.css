@@ -121,3 +121,13 @@ footer{
 	/*color: #78CE74;*/
 	color:#B06120;
 }
+
+/*Page Rap*/
+
+#baniere{
+
+display: flex;
+background-image: url('../img/guizmoctom_sanslaville-bd5.jpg');
+background-size: cover;
+width: 100%;
+}
