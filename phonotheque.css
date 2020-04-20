@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-decoration:none;
+}
+
+body{
+	color:#E4E4E4;
+	background-color: rgb(39, 39, 39);
+}
+/***** Header *****/
+header{
+	text-align:center;
+	border-bottom: solid 1px #393939;
+	padding: 3%;
+	background-color: #141414;
+	color:#E4E4E4;
+}
+.h1_header{
+	margin-bottom:2%;
+	font-family: 'Poiret One', cursive, Georgia;
+	display:inline-block;
+	background: linear-gradient(to top, #27B020 0%, #27B020 10%, transparent 10.01%) no-repeat;
+	background-size: 0 100%;
+}
+.h1_header:hover{
+	background-size:100% 100%;
+	transition: background-size .3s;
+}
+.menu_header .ul_header{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	font-family: 'Lora', serif, Arial;
+}
+.link_header{
+	color:#E4E4E4;
+	transition: color 0.5s, font-weight;
+}
+.link_header:hover{
+	/*color: #78CE74;*/
+	color:#B06120;
+}
+
+/******** Main *********/
+/** Redimensionnement de l'image**/
+.accueil_img{
+	width:65%;
+	/**Permet de centrer l'image**/
+	display: block;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+/*** Section 1 : Présentation ****/
+.accueil_section1{
+	text-align: center;
+	margin-top:5%;
+	margin-bottom:5%;
+	font-family: 'Lora', serif, Arial;
+}
+.h2_accueil{
+	font-weight: normal;
+}
+
+/**** Section 2 : Sons et artistes****/
+.grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	text-align:center;
+	margin: 0 5% 8% 5%;
+}
+
+.cellule{
+	background-color: #555555;
+	color:black;
+	border-radius:5px;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.miniature{
+	width:200px;
+	height:200px;
+	filter: grayscale(0);
+	transition: .3s ease-in-out;
+}
+.miniature:hover{
+	filter: grayscale(100%)
+}
+.nom_accueil{
+	color:white;
+}
+.titre_accueil{
+	color:grey;
+	padding-bottom:5%;
+}
+
+/***** Footer *****/
+footer{
+	text-align:center;
+	border-top: solid 1px #393939;
+	padding: 3%;
+	background-color: #141414;
+	color:#E4E4E4;
+}
+.menu_footer .ul_footer{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	font-family: 'Lora', serif, Arial;
+}
+.link_footer{
+	color:#E4E4E4;
+	transition: color 0.5s, font-weight;
+}
+.link_footer:hover{
+	/*color: #78CE74;*/
+	color:#B06120;
+}
