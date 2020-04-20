@@ -5,6 +5,10 @@
 	text-decoration:none;
 }
 
+body{
+	color:#E4E4E4;
+	background-color: rgb(39, 39, 39);
+}
 /***** Header *****/
 header{
 	text-align:center;
@@ -38,11 +42,9 @@ header{
 	/*color: #78CE74;*/
 	color:#B06120;
 }
+
+/******** Main *********/
 /** Redimensionnement de l'image**/
-body{
-	color:#E4E4E4;
-	background-color: rgb(39, 39, 39);
-}
 .accueil_img{
 	width:65%;
 	/**Permet de centrer l'image**/
@@ -69,8 +71,7 @@ body{
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	text-align:center;
-	margin-left:5%;
-	margin-right:5%;
+	margin: 0 5% 8% 5%;
 }
 
 .cellule{
@@ -96,4 +97,27 @@ body{
 .titre_accueil{
 	color:grey;
 	padding-bottom:5%;
+}
+
+/***** Footer *****/
+footer{
+	text-align:center;
+	border-top: solid 1px #393939;
+	padding: 3%;
+	background-color: #141414;
+	color:#E4E4E4;
+}
+.menu_footer .ul_footer{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	font-family: 'Lora', serif, Arial;
+}
+.link_footer{
+	color:#E4E4E4;
+	transition: color 0.5s, font-weight;
+}
+.link_footer:hover{
+	/*color: #78CE74;*/
+	color:#B06120;
 }
