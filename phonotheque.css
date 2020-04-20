@@ -57,15 +57,25 @@ body{
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 .cellule{
-	background-color: lightgrey;
-	border:solid 1px white;
+	background-color: #555555;
 	color:black;
+	border-radius:5px;
+	padding-top:5%;
+	padding-bottom:5%;
 }
 
 .miniature{
 	width:200px;
 	height:200px;
+}
+.nom_accueil{
+	color:white;
+}
+.titre_accueil{
+	color:grey;
 }
