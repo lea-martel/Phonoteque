@@ -14,8 +14,15 @@ header{
 	color:#E4E4E4;
 }
 .h1_header{
-	padding-bottom:2%;
+	margin-bottom:2%;
 	font-family: 'Poiret One', cursive, Georgia;
+	display:inline-block;
+	background: linear-gradient(to top, #27B020 0%, #27B020 10%, transparent 10.01%) no-repeat;
+	background-size: 0 100%;
+}
+.h1_header:hover{
+	background-size:100% 100%;
+	transition: background-size .3s;
 }
 .menu_header .ul_header{
 	display:flex;
@@ -25,6 +32,11 @@ header{
 }
 .link_header{
 	color:#E4E4E4;
+	transition: color 0.5s, font-weight;
+}
+.link_header:hover{
+	/*color: #78CE74;*/
+	color:#B06120;
 }
 /** Redimensionnement de l'image**/
 body{
@@ -72,6 +84,11 @@ body{
 .miniature{
 	width:200px;
 	height:200px;
+	filter: grayscale(0);
+	transition: .3s ease-in-out;
+}
+.miniature:hover{
+	filter: grayscale(100%)
 }
 .nom_accueil{
 	color:white;
