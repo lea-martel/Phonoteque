@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 *{
 	margin:0;
 	padding:0;
@@ -122,12 +123,150 @@ footer{
 	color:#B06120;
 }
 
-/*Page Rap*/
+/*Page3 Rap*/
 
-#baniere{
+.baniere{
 
 display: flex;
-background-image: url('../img/guizmoctom_sanslaville-bd5.jpg');
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
 background-size: cover;
+background-repeat: no-repeat;
 width: 100%;
+
+}
+
+.nom{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Barlow', sans-serif;
+font-size: 100px;
+margin-bottom: 2%;
+text-shadow: 0 0 0.2em rgb(246, 224, 19) ,0 0 0.2em rgb(246, 224, 19);
+
+}
+.bio{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Barlow', sans-serif;
+
+}
+
+.bio, h2{
+
+font-size: 28px;
+
+}
+
+.texte{
+
+font-size: 19px;
+text-align: justify;
+width: 40%;
+margin-top: 1%;
+
+}
+
+.box{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #393939;
+margin-top: 1%;
+width: 100%;
+height: 30rem;
+
+}
+
+.album{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+transition: filter 0.35s ease-in-out;
+
+}
+
+.album:hover {
+-webkit-filter: grayscale(0%);
+filter: grayscale(0%)
+}
+
+.pochette{
+
+width: 13%;
+
+}
+
+.block{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #393939;
+margin-top: 2%;
+width: 30%;
+height: 40rem;
+font-family: 'Barlow', sans-serif;
+border-radius: 30px;
+margin-left: 5%;
+position: relative;
+
+
+}
+
+.titre{
+margin-top: 2%;
+font-size: 55px;
+text-shadow: 0 0 0.2em rgb(246, 224, 19) ,0 0 0.2em rgb(246, 224, 19);
+
+}
+
+.img{
+
+display: flex;
+flex-direction: column;
+margin-top: 4%;
+width: 40%;
+height: 13rem;
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+transition: filter 0.35s ease-in-out;
+
+}
+
+.img:hover{
+
+-webkit-filter: grayscale(0%);
+filter: grayscale(0%)
+}
+
+
+
+.des{
+	
+display: flex;
+flex-direction: column;
+font-family: 'Barlow', sans-serif;
+font-size: 22px;
+margin-top: 1%;
+
 }
