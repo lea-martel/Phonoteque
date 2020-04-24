@@ -19,10 +19,14 @@ header{
 	color:#E4E4E4;
 }
 .h1_header{
-	margin-bottom:2%;
-	font-family: 'Poiret One', cursive, Georgia;
+	margin-bottom: 2%;
+	/**font-family: 'Poiret One', cursive, Georgia;
 	display:inline-block;
-	background: linear-gradient(to top, #27B020 0%, #27B020 10%, transparent 10.01%) no-repeat;
+	background: linear-gradient(to top, #27B020 0%, #27B020 10%, transparent 10.01%) no-repeat; 
+	*****/
+	font-family: 'Barlow', sans-serif;
+	font-size: 60px;
+    text-shadow: 0 0 0.2em rgb(246, 224, 19) ,0 0 0.2em rgb(246, 224, 19);
 	background-size: 0 100%;
 }
 .h1_header:hover{
@@ -33,7 +37,8 @@ header{
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
-	font-family: 'Lora', serif, Arial;
+	font-family: 'Barlow', sans-serif;
+	font-size: 25px;
 }
 .link_header{
 	color:#E4E4E4;
@@ -112,7 +117,9 @@ footer{
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
-	font-family: 'Lora', serif, Arial;
+	/**font-family: 'Lora', serif, Arial; **/
+	font-family: 'Barlow', sans-serif;
+	font-size: 25px;
 }
 .link_footer{
 	color:#E4E4E4;
