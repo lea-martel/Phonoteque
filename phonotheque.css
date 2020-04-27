@@ -7,7 +7,7 @@
 
 body{
 	color:#E4E4E4;
-	background-color: rgb(39, 39, 39);
+	background-color: rgb(39,39,39);
 }
 /***** Header *****/
 header{
@@ -40,7 +40,7 @@ header{
 }
 .link_header:hover{
 	/*color: #78CE74;*/
-	color:#B06120;
+	color:#9A8C98;
 }
 
 /******** Page d'accueil *********/
@@ -99,7 +99,8 @@ header{
 	padding-bottom:5%;
 }
 
-/**** Page Style1 : Classique ****/
+
+/********* Page Style1 : Classique ********/
 .section1{	
 	margin:3%;	
 	font-family: 'Josefin Sans', sans-serif, Georgia;
@@ -112,8 +113,8 @@ header{
 }
 .article_style1{
 	border-radius:10px;
-	border: solid 1px black;
-	background-color: grey;
+	border: solid 1px #22223B;
+	background-color: #4A4E69;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
@@ -121,16 +122,19 @@ header{
 }
 .h2_style1{
 	margin-top:5%;
+	color:#9A8C98;
 }
 .p_style1{
 	padding:3%;
+	color:#C9ADA7;
+	line-height: 1.5em;
 }
 .grid1{
-	margin-top:3%;
+	margin-top:1%;
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-	background-color: lightgrey;
-	color:black;
+	background-color: #4A4E69;
+	color:#9A8C98;
 	text-align: center;
 	grid-row-gap: 20px;
 	padding-top:3%;
