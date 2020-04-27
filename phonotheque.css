@@ -120,6 +120,15 @@ header{
 	text-align: center;
 	padding:3%;
 }
+.article2_style1{
+	border-radius:10px;
+	border: solid 1px #22223B;
+	background-color: #4A4E69;
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	padding:3%;
+}
 .h2_style1{
 	margin-top:5%;
 	color:#9A8C98;
@@ -143,6 +152,13 @@ header{
 }
 .titre_style1{
 	padding-bottom:2%;
+}
+.link_style1{
+	color:#C9ADA7;
+	transition:color 1s;
+}
+.link_style1:hover{
+	color:#F2E9E4;
 }
 /***** Footer *****/
 footer{
