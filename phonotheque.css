@@ -160,6 +160,50 @@ header{
 .link_style1:hover{
 	color:#F2E9E4;
 }
+
+/********* Page Style2 : Pop ******/
+.article_style2{
+	background-color: rgb(8, 18, 54);
+	color:white;
+	border-radius:10px;
+	display: flex;
+	flex-direction: row;
+	border: solid 1px #F2E9E4;
+	text-align: center;
+	padding:3%;
+}
+.article2_style2{
+	background-color: rgb(8, 18, 54);
+	color:white;
+	border-radius:10px;
+	display: flex;
+	flex-direction: row-reverse;
+	border: solid 1px #F2E9E4;
+	text-align: center;
+	padding:3%;
+}
+.grid2{
+	margin-top:1%;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: rgb(8, 18, 54);
+	color:#9A8C98;
+	text-align: center;
+	grid-row-gap: 20px;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-radius: 10px;
+	border: solid 1px #F2E9E4;
+}
+.logo{
+	width:4%;
+	padding:2%;
+}
+@media (max-width: 700px){
+	.logo{
+		width:10%;
+	}
+}
 /***** Footer *****/
 footer{
 	text-align:center;
