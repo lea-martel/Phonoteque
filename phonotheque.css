@@ -33,6 +33,24 @@ header{
 	background-size:100% 100%;
 	transition: background-size .3s;
 }
+
+.flex{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+#logo{
+
+margin-left: 2%;
+width: 5%;
+height: 2%;
+
+}
 .menu_header .ul_header{
 	display:flex;
 	flex-direction:row;
@@ -185,7 +203,7 @@ margin-top: 1%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: #393939;
+background-color: #555555;
 margin-top: 1%;
 width: 100%;
 height: 30rem;
@@ -220,7 +238,7 @@ width: 13%;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: #393939;
+background-color: #555555;
 width: 450px;
 height: 450px;
 font-family: 'Barlow', sans-serif;
@@ -343,10 +361,8 @@ filter: grayscale(0%)
 display: flex;
 justify-content: center;
 
-
-
-
 }
+
 .music{
 
 display: block;
@@ -355,9 +371,11 @@ justify-content: center;
 text-align: center;
 background-color: #4A4E69;
 width: 40%;
-height: 80vh;
+height: 82vh;
+border-radius: 30px;
 margin-left: 5%;
 margin-top: 3%;
+margin-bottom: 2%;
 
 
 }
